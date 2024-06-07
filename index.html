@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: black;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 12%;
+  text-align: center;
+  background-image:url("krn2.jpg");
+  background-repeat: no-repeat;
+ color:white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: hotpink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #000000;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #000000;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #FFC0CB;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Koreanbee</h1>
+    <p>we provide a lok about korea, including k-pop dramaas and others .</p>
+  </div>
+  
+
+<div class="topnav">
+  <a href="k-pop.html">k-pop</a>
+    <a href="k-Drama.html">k-Drama</a>
+    <a href="k-Lifestyle.html">k-Lifestyle</a>
+  <a href="#" style="float:right">All</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+
+      <h2> QUEEN OF TEARS</h2>
+        <h5>k-Drama .2024 ,Roman ,1 Season</h5>
+    
+<img src="kim.jpg"height="500"width="100%">
+     
+      <h5>Queen Of Tears</h5>
+      <p>Queen of Tears adalah seri televisi Korea Selatan yang di tulis Park ji-Eun serta dibintangi oleh Kim Soo Hyun dan Kin Ji-Won. serial ini menggambarkan kisah suami istri yang betbeda krisis</p>
+      </div>
+
+    <div class="card">
+      <h2>SNOWDROP</h2>
+      <h5>k-Drama .2021 ,Roman ,1 Seson</h5>
+      <img src="snowdrop.jpg"height="500"width="100%">
+      <p>Snowdro</p>
+      <p>Snowdrop berlatar belakang tahun 1987, tahun penting dalam sejarah Korea Selatan yang mencakup Gerakan Demokrasi Juni 1987, sebuah gerakan protes massal dengan tujuan memaksa kediktatoran di Korea Selatan untuk mengadakan pemilihan umum yang adil.</p>
+    </div>
+
+
+    <div class="card">
+      <h2>ENHYPEN</h2>
+      <h5>k-pop ,Grup musik</h5>
+      <img src="enhypen.jpeg"height="500"width="100%">
+      <p>ENHYPEN</p>
+      <p>Enhypen adalah grup musik asal Korea Selatan yang dibentuk oleh Belift Lab melalui acara survival berjudul I-Land di Mnet pada tahun 2020. Enhypen debut pada 30 November 2020 dengan album Border: Day One dan lagu yang berjudul "Given-Taken".</p>
+    </div>
+
+
+    <div class="card">
+      <h2>COSRX</h2>
+      <h5>k-Lifestyle, skincere</h5>
+      <img src="skc.jpeg"height="500"width="100%">
+      <p>Cosrx</p>
+      <p>Sebagai merek perawatan wajah asal Korea Selatan, COSRX telah dikenal dengan rangkaian produknya yang ampuh mengatasi masalah kulit wajah. Tidak hanya Korea Selatan, COSRX juga favorit di Indonesia.
+
+Nah, kabar gembiranya COSRX menggandeng aktor kenamaan Kim Soo Hyun sebagai Global Brand Ambassador. Salah satu aktor Korea Selatan papan atas dengan bayaran termahal, Kim Soo Hyun telah dikenal luas oleh para pecinta K-Drama di seluruh dunia, termasuk Indonesia..</p>
+    </div>
+
+
+    <div class="card">
+      <h2>TOPOKKI</h2>
+      <h5>FOOD ,Korea</h5>
+      <img src="tk.jpg"height="500"width="100%">
+      <p>Topokii</p>
+      <p>Umumnya, tteokbokki disajikan dengan saus gochujang yang pedas manis, sehingga menciptakan perpaduan rasa yang nikmat dan bikin ketagihan..</p>
+    </div>
+
+
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img src="k1.jpg"height="500"width="100%">
+      
+      <p>Anyeong yorobun.. kami disi sini meyediakan semua tentang korea dari mulai k-pop ,k-drama ,k-Lifestyle and masih bayak lagi.. so ikutin terus website kita yahh</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div><img src="bp.jpg"width="250px"height="100px"></div>
+      <div><img src="sylk.jpg"width="250x"height="100px"></div>
+      <div><img src="kbts.jpg"width="250px"height="100px"></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>@koreanbee
+      @rosel._0z</p>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <p> Copyright &copy; 2024 Koreanbee. All Rights Reserved.</p>
+  </div>
+
+</body>
+</html>
+
+
